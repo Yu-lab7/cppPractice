@@ -13,5 +13,10 @@ int main()
     cout << "&a = " << &a << endl;
     cout << "pA = " << pA << endl;
 
+    *pA = 10;
+    cout << "a = " << a << endl;
+    cout << "&a = " << &a << endl;
+    cout << "pA = " << pA << endl;
+
     return 0;
 }
